@@ -1,32 +1,66 @@
-Shopping_Web 🛒 (In Progress)
-An evolving e-commerce platform built using Django, currently in development. The project aims to deliver a robust shopping experience with key features such as product management, user authentication, and a streamlined checkout process.
 
-Current Features:
-Basic User Authentication: User registration and login functionality.
-Product Listings: Initial setup for product categories and listings.
-Cart Management: Preliminary shopping cart functionality.
-Planned Features:
-Order & Payment Integration: Secure payment options (Stripe/PayPal).
-Admin Panel: Full control over products, orders, and user management.
-Advanced Search & Filters: Improved product discovery with custom filters.
-Responsive Design: Optimized for mobile and desktop views.
-Tech Stack (In Use):
-Backend: Django
-Frontend: HTML, CSS, Bootstrap (with plans for further enhancement)
-Database: SQLite (switching to PostgreSQL upon completion)
-Installation (For Development Purposes):
-Clone the repo:
+Shopping_Web 🛒 (Work in Progress)
+Shopping_Web is an e-commerce web application developed using Django, designed to provide a user-friendly shopping experience. The project is currently under active development, with many exciting features to come.
+
+🚧 Project Status: In Development
+This project is a work in progress. Several core functionalities are being implemented, with future enhancements planned.
+
+📋 Features (Implemented & Planned)
+✅ Implemented Features:
+User Authentication: Basic user registration and login functionality using Django’s built-in authentication system.
+Product Listings: Initial structure for displaying products with categories.
+Shopping Cart: Basic shopping cart functionality where users can add and view items.
+🚀 Planned Features:
+Advanced Product Management: Add, update, and delete products with category-based filters.
+Order & Checkout: Seamless order placement and integration of secure payment gateways (Stripe/PayPal).
+Admin Dashboard: Manage users, products, and orders through a user-friendly admin panel.
+Search & Filters: Enhanced search functionality with price and category filters.
+Mobile Responsiveness: Optimized design for a seamless experience on all devices.
+🛠️ Tech Stack
+Backend: Django, Django REST Framework
+Frontend: HTML5, CSS3, Bootstrap
+Database: SQLite (moving to PostgreSQL)
+Authentication: Django's built-in authentication system (OAuth2/JWT planned)
+Payment Gateway: Stripe/PayPal integration (upcoming)
+Deployment: Will be deployed on AWS/GCP with CI/CD
+🚀 Getting Started
+To get a local copy of the project up and running, follow these steps:
+
+Prerequisites:
+Python 3.x
+Django 3.x
+Installation:
+Clone the repository:
 bash
 Copy code
 git clone https://github.com/yourusername/shopping_web.git
-Navigate to the project directory:
+Navigate into the project directory:
 bash
 Copy code
 cd shopping_web
+Create a virtual environment and activate it:
+bash
+Copy code
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
 Install dependencies:
+bash
 Copy code
 pip install -r requirements.txt
+Apply migrations:
+bash
+Copy code
+python manage.py migrate
 Run the development server:
+bash
 Copy code
 python manage.py runserver
-Stay tuned for updates as the project progresses!
+📈 Roadmap
+ Basic user authentication
+ Product listing and categories
+ Shopping cart integration
+ Order and payment system
+ Admin panel for product management
+ Mobile-first design improvements
+🛡️ License
+This project is licensed under the MIT License. See the LICENSE file for more details.
